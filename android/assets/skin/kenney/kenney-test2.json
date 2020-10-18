@@ -1,0 +1,75 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    font: {
+      file: kenney-future2.fnt
+    }
+    title: {
+      file: kenney-future2.fnt
+    }
+  }
+
+  com.badlogic.gdx.graphics.Color: {
+    black: {
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+    }
+    sky-blue: {
+      r: 0.2733333
+      g: 0.68720984
+      b: 1
+      a: 1
+    }
+    white: {
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    }
+  }
+
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      font: font
+      up: button-plain
+      down: button-plain-selected
+      over: button-hover
+    }
+//    toggle: {
+//      font: font
+//      up: button
+//      down: button-selected
+//      checked: button-selected
+//    }
+  }
+
+  com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+    default-horizontal: {
+      background: slider-horizontal
+      knob: slider-knob
+      knobBefore: empty
+    }
+//    default-vertical: {
+//      background: slider-back
+//      knob: slider-knob
+//      knobBefore: slider-v
+//    }
+  }
+
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: {
+      checkboxOn: checkbox_checked
+      checkboxOff: checkBox_unchecked
+      font: font
+      fontColor: white
+      downFontColor: sky-blue
+      checkedFontColor: sky-blue
+    }
+    radio: {
+      checkboxOn: radio_checked
+      checkboxOff: radio-unchecked
+      font: font
+    }
+  }
+}

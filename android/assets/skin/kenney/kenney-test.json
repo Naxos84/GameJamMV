@@ -1,0 +1,37 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    font: {
+      file: kenney-future.fnt
+    }
+    title: {
+      file: kenney-future.fnt
+    }
+  }
+
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      font: font
+      up: button-plain
+      down: button-plain-selected
+    }
+//    toggle: {
+//      font: font
+//      up: button
+//      down: button-selected
+//      checked: button-selected
+//    }
+  }
+
+  com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+    default-horizontal: {
+      background: slider-horizontal
+      knob: slider-knob
+      knobBefore: empty
+    }
+//    default-vertical: {
+//      background: slider-back
+//      knob: slider-knob
+//      knobBefore: slider-v
+//    }
+  }
+}

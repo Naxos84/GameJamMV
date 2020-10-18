@@ -1,0 +1,48 @@
+
+kenney-test.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button-plain
+  rotate: false
+  xy: 2, 8
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+button-plain-selected
+  rotate: false
+  xy: 260, 270
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+empty
+  rotate: false
+  xy: 260, 263
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+kenney-future
+  rotate: false
+  xy: 2, 59
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 0
+slider-horizontal
+  rotate: false
+  xy: 2, 2
+  size: 190, 4
+  orig: 190, 4
+  offset: 0, 0
+  index: -1
+slider-knob
+  rotate: false
+  xy: 194, 40
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

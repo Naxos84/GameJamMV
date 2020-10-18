@@ -1,0 +1,16 @@
+package com.example.tnnfe.manager.events;
+
+public enum EventType {
+    MAP_LOADED,
+    PLAYER_MOVED,
+    SHOW_DIALOG,
+    OBSTACLE_HIT,
+    CRYSTAL_ACTIVATED,
+    CRYSTAL_DEACTIVATED,
+    CRYSTAL_ACTIVATION_FAILED,
+    CRYSTAL_FOUND,
+    RAIL_HIT,
+    COLLECTED_DUST,
+    DIALOG_CLOSED,
+    BEE_COLLECTED
+}
