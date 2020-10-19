@@ -16,6 +16,8 @@ As engine we use libgdx.
 
 * Bee hive sound (https://freesound.org/people/knova/sounds/172335/) (CC-BY-NC)
 
+* start.ogg (https://opengameart.org/content/bleeding-out) (CC0)
+
 * Characters (https://opengameart.org/content/tiny-16-expanded-character-sprites) (CC-BY) 
 
 * Other Graphic, Fonts and sounds by Kenney (https://www.kenney.nl/assets) (CC0)
